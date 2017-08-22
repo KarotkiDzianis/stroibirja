@@ -3,11 +3,10 @@ package beans;
 public class OrganizationBean {
 
 	private int orgId;
-	
 
 	private String name;
 	private String password;
-	
+
 	private int rol;
 
 	public OrganizationBean() {

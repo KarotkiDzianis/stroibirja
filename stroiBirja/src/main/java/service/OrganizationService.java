@@ -3,17 +3,18 @@ package service;
 import java.util.List;
 
 import beans.OrganizationBean;
+import entities.Organization;
 
 
 
 public interface OrganizationService {
 	List <OrganizationBean> getAllOrganization();
 	
+	OrganizationBean findByOrgName (String name);
+	
 	OrganizationBean getOrgById(Integer orgId);
 	
-	OrganizationBean getOrgByName (String name);
-	
-	Integer saveOrg (OrganizationBean org);
+	void saveOrg (OrganizationBean org);
 	
 	void  deleteOrg (Integer orgId);
 }

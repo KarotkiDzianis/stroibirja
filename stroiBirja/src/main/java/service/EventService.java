@@ -8,10 +8,10 @@ public interface EventService {
 	
 	EventBean getEventById( Integer eventId);
 	
-	void saveEvent(EventBean eventBean);
+	void saveEvent(EventBean event);
 	
 	void deleteEvent(Integer eventid);
 	
-	/*void updateEvent(Integer eventId);*/
+
 
 }

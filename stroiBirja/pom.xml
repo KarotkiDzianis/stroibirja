@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
     <groupId>by</groupId>
-    <artifactId>tesy</artifactId>
+    <artifactId>stroibirja</artifactId>
     <packaging>war</packaging>
     <version>${app.version}</version>
 
@@ -16,9 +16,11 @@
         <spring.version>4.3.4.RELEASE</spring.version>
         <spring.data.version>1.9.4.RELEASE</spring.data.version>
        <spring.security.version>4.2.3.RELEASE</spring.security.version>
+   
         <hibernate.version>5.2.6.Final</hibernate.version>
         <mysql.version>5.1.42</mysql.version>
         <dozer.version>5.5.1</dozer.version>
+        
     </properties>
 
     <dependencies>
@@ -58,25 +60,25 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
-    <version>4.2.3.RELEASE</version>
+    <version>${spring.security.version}</version>
 </dependency>
 
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>4.2.3.RELEASE</version>
+    <version>${spring.security.version}</version>
 </dependency>
 
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-config</artifactId>
-    <version>4.2.3.RELEASE</version>
+    <version>${spring.security.version}</version>
 </dependency>
 
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-taglibs</artifactId>
-    <version>4.2.3.RELEASE</version>
+    <version>${spring.security.version}</version>
 </dependency>
 
         <dependency>

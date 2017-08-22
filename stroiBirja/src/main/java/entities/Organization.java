@@ -37,8 +37,6 @@ public class Organization implements Serializable {
 	@Column(name = "password")
 	private String password;
 
-	@Transient
-	transient private String confirmPassword;
 	
 	@Column(name = "rol")
 	private int rol;

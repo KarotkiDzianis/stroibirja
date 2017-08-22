@@ -10,7 +10,7 @@ See here for more details: http://gordondickens.com/wordpress/2013/03/27/sawing-
     <!-- To enable JMX Management -->
     <jmxConfigurator/>
 
-    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%date{HH:mm:ss.SS} [%thread ]%-5level %logger{0} - %msg%n</pattern>
         </encoder>
@@ -21,6 +21,6 @@ See here for more details: http://gordondickens.com/wordpress/2013/03/27/sawing-
     <logger name="org.springframework.samples.service.service" level="debug"/> 
          
     <root level="info">
-        <appender-ref ref="console"/>
+        <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
